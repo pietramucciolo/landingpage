@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    padding: 57px 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .nav-links{
+    display: flex;
+    gap: 0 100px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner h1{
+    font-size: 48px;
+    width: 504px;
+    padding-right: 160px;
+    line-height: 60px;
+    
+}
+.banner p{
+    font-weight: 400;
+    color: #595959;
+    font-size: 24px;
+    line-height: 35px;
+    width: 80%;
+}
+
+.banner-content-group{
+    padding: 85px 100px 10px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    gap: 50px 0 ;
+}
+
+.banner-content-group button{
+    border: 1px solid #000;
+    color: #0074FF;
+    background: none;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    width: max-content;
+}
+
+section .location, section .services, section .categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+section .location h2, section .services h2, section .categories h2{
+    padding-bottom: 28px;
+    font-size: 36px;
+}
+section .location p.location-subtitle, section .services p.services-subtitle, 
+section .categories p.categories-subtitle{
+    font-size: 24px;
+    width: 1231px;
+    padding-bottom: 38px;
+    line-height: 28px;
+    color: #595959;
+}
+
+section .location svg{
+    position: absolute;
+    left: 0;  
+}
+
+section .location::after{
+    content: '';
+    position: relative;
+    height: 2px;
+    width: 200px;
+    background: #000;
+    bottom: -50px;
+    z-index: -1;
+}
+
+section .location iframe{
+    filter: drop-shadow(1px 3px 5px rgb(0, 0, 0 ,.5));
+}
+
+section .services .services-cards{
+    display: flex;
+    gap: 12px;
+}
+
+section .services .services-cards .services-card{
+    background: #0074FF;
+    padding: 14px 10px 55px 22px;
+    max-width: 309px;
+    text-align: left;
+}
+
+section .services .services-cards .services-card h1{
+    font-size: 104px;
+    color: #1A1A1A1A;
+    margin-top: -15px;
+}
+
+section .services .services-cards .services-card h3{
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+    margin-top: -42px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+
+}
+
+section .services .services-cards .services-card p{
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+section .services svg{
+    position: absolute;
+    right: 0;  
+}
+
+
+section .categories .categories-group{
+    display: flex;
+    padding: 0 166px;
+    gap: 0 150px;
+    padding-bottom: 80px;
+}
+
+section .categories .categories-group .categories-item{
+    width: 33%;
+    text-align: left;
+
+}
+
+section .categories .categories-group .categories-item .category{
+    text-align: left;
+}
+section .categories .categories-group .categories-item .category h3{
+    padding-bottom: 15px;
+    font-size: 21px;
+}
+
+.material-symbols-outlined{
+    font-size: 40px;
+    position: relative;
+    left: -60px;
+    bottom: -20px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid;
+    padding: 23px 5px 23px 0;
+}
+
+footer{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 184px;
+    color: #fff;
+    align-items: center;
+}
